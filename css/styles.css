@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+header {
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-right: 120px;
+}
+header .header-content .title-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header .header-content .intro {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+}
+header .header-content .order-list {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  list-style: none;
+  justify-content: center;
+}
+header .header-content .order-list .firstitem {
+  border: 3px solid black;
+  border-radius: 5%;
+}
+header .header-content .order-list .seconditem {
+  border: 3px solid black;
+  border-radius: 5%;
+}
+header .header-content .order-list .thirditem {
+  border: 3px solid black;
+  border-radius: 5%;
+}
+
+/*# sourceMappingURL=styles.css.map */
