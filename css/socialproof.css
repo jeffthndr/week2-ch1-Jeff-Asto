@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.section {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 29px;
+  gap: 32px;
+}
+.section .section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "League Spartan", sans-serif;
+  gap: 20px;
+}
+.section .section-content .section-content__text1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(300, 43%, 22%);
+}
+.section .section-content .section-content__text2 {
+  font-family: "League Spartan", sans-serif;
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.section-cards {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 29px;
+  gap: 32px;
+}
+.section-cards .section-card {
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.section-cards .section-card .section-card__stars {
+  font-size: 1.1rem;
+}
+.section-cards .section-card .section-card-items__paragraph {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.section-cards .section-card2 {
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.section-cards .section-card2 .section-card-items__stars2 {
+  font-size: 1.1rem;
+}
+.section-cards .section-card2 .section-card-items__paragraph2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.section-cards .section-card3 {
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.section-cards .section-card3 .section-card-items__stars3 {
+  font-size: 1.1rem;
+}
+.section-cards .section-card3 .section-card-items__paragraph3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+/*# sourceMappingURL=socialproof.css.map */
